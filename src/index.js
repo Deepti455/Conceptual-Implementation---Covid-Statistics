@@ -89,7 +89,7 @@ app.get("/hotspotStates", async (req, res) => {
   res.send({ data: hotspotTotal});
 });
 
-app.get("/healtytStates", async (req, res) => {
+app.get("/healthyStates", async (req, res) => {
   // const allData=await connection.find();
   // let healty=0;
   // let myres=[];
